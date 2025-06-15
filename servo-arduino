@@ -1,0 +1,19 @@
+#include <Servo.h>
+
+int servoPin = 9;
+Servo twist;
+
+void setup() {
+  twist.attach(servoPin);
+}
+
+
+void loop() {
+  for(int c=0; c<3; c++){ //run 3x
+    twist.write(0);
+    delay(1000);
+    twist.write(180);
+    delay(3000);
+  }
+  exit(0);
+}
