@@ -5,8 +5,8 @@
 
 #include "camera_pins.h"
 
-const char *ssid = "Linksys01699";
-const char *password = "6B9P@CG7uN";
+const char *ssid = "";
+const char *password = "";
 
 void startCameraServer();
 void setupLedFlash(int pin);
